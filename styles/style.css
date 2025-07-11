@@ -56,6 +56,8 @@ margin-bottom: 50px;
      border-radius: 5px;
      margin: 50px;
      padding: 50px;
+     margin-top: 50px;
+     margin-bottom: 50px;
 }
 .section{
  margin-left: 50px;
@@ -84,6 +86,10 @@ margin-bottom: 50px;
    padding: 5px 5px 10px 10px;
    border-radius: 20px;
     gap: 2px;
+    height: 250px;
+    width: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 .banner-items{
@@ -93,17 +99,21 @@ margin-bottom: 50px;
     
 
 }
+.banner-title{
+    margin: 40px;
+}
 .item-title{
     color: #4E47FF;
     font-weight: bold;
     font-size: larger;
- 
+ margin: 0;
    
 }
 .item-description{
     color: gray;
     font-size: 20px;
     padding: 5px;
+    margin: 0;
 }
 /* skills section style */
 .section-title{
@@ -114,6 +124,9 @@ margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
     gap: 10px;
+}
+.skills{
+   margin: 50px;
 }
     
 .skill{
@@ -147,9 +160,9 @@ margin-bottom: 50px;
     justify-content: center;
     background-color: oldlace;
     width: auto;
-    height:550px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height:600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     border-radius: 50px;
 }
 .focus-dep{
@@ -177,9 +190,11 @@ margin-bottom: 50px;
     display: flex;
     gap: 100px;
     background-color: oldlace;
+    
 }
 .footer-column{
     width: 50%;
+    
 }
 footer input[type="text"], footer input[type="email"], footer textarea{
     height: 64px;
@@ -192,7 +207,9 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: black;
 }
 .footer-text{
-    font-size: 40px;
+    font-size: 60px;
+    margin-top: 150px;
+    
 }
 .footer-last{
     display: block;
@@ -211,6 +228,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     display: flex;
     list-style: none;
     gap: 20px;
+    color: gray;
 }
 .last-des{
     color: gray;
