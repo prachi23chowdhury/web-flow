@@ -139,7 +139,57 @@ margin-bottom: 50px;
     color: rgb(112, 111, 111);
 }
 /* focus section */
+.focus{
+    display: block;
+    justify-content: center;
+    background-color: oldlace;
+    width: auto;
+    height:550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
 .focus-dep{
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
+    color: gray;
+}
+.btn{
+    display: block;
+  margin: 0 auto;
+ border-radius: 10px;
+ gap: 200px;
+}
+.focus-img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    height: 300px;
+
+}
+/* footer section */
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer{
+    background-color: oldlace;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: black;
+}
+.footer-text{
+    font-size: 40px;
 }
